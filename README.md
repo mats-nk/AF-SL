@@ -9,11 +9,11 @@ Search for work with commuting distance (Time/Disctance)
 
 Målet med repot är att öka livskvaliteten och minska miljöbelastningen genom att erbjuda möjligheten till enklare kunna välja jobb utifrån pendlingsavstånd.
 
-'''bash
+```bash
 search.py <jobb sök term>
-'''
+```
 
-search.py kräver en API nyckel från Arbetsförmedlingen och Stockholm Lokaltrafik via TrafikLab).
+`search.py` kräver en API nyckel från Arbetsförmedlingen och Stockholm Lokaltrafik via TrafikLab).
 
 
 ## Searches
