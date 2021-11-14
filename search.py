@@ -60,18 +60,15 @@ def test_search_loop_through_hits(query):
 
         #print(type(hit['workplace_address']['coordinates']))
         cord = hit['workplace_address']['coordinates']
-        print(type(cord))
-        #lat=cord[1]
-        #lon=cord[0]
-        cord = cord.reverse()
+        #print(type(cord))
         print(cord)
-        #location = geolocator.reverse(cord)
-        #print(location)
+        lat=cord[1]
+        lon=cord[0]
         print('')
 
         print(hit['workplace_address']['street_address'])
-        #print(hit['workplace_address']['postcode'])
-        #print(hit['workplace_address']['city'])
+        print(hit['workplace_address']['postcode'])
+        print(hit['workplace_address']['city'])
 
         print('')
         #time.sleep(1)
