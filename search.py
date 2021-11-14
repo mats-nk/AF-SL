@@ -46,7 +46,7 @@ def test_search_loop_through_hits(query):
     response.raise_for_status()    # Check for http errors
     json_response = json.loads(response.content.decode('utf8'))
     hits = json_response['hits']
-    with open(query + '-voip-search3.json', "w") as outfile:
+    with open(query + '-search.json', "w") as outfile:
         json.dump(json_response, outfile)
     for hit in hits:
         print()
@@ -74,7 +74,7 @@ def test_search_loop_through_hits(query):
         #print(hit['workplace_address']['city'])
 
         print('')
-        time.sleep(1)
+        #time.sleep(1)
 
 
 # ------ Main ------
