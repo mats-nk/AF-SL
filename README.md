@@ -16,6 +16,11 @@ search.py <jobb sök term>
 `search.py` kräver en API nyckel från Arbetsförmedlingen och Stockholm Lokaltrafik via TrafikLab).
 
 
+## Funktions beskrivning
+
+Se dokument [functions.md](functions.md)
+
+
 ## Searches
 
 ### Data som behövs är:
