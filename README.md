@@ -47,6 +47,14 @@ Med detta API kan du få reseförslag från A till B inom Stockholms län med SL
 
 4. Webbsida som presenterar sökt jobb där man kan sortera på pendlingsavstånd i tid eller avstånd.
 
+
+### ToDo
+
+1. Fel hantering
+
+2. Hjälpt text
+
+
 ### API referenser
 
 https://jobsearch.api.jobtechdev.se/
